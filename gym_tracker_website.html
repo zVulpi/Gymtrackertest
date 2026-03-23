@@ -697,19 +697,27 @@ input[type=date]:focus{border-color:var(--acc)}
   <div class="modal" style="max-height:90vh">
     <div class="mhandle"></div>
     <div class="mtitle">TRAININGSPLAN LADEN</div>
-    <p style="font-size:12px;color:var(--tx2);margin-bottom:14px;line-height:1.6">Lade eine Textdatei mit deinem Trainingsplan. Format wird automatisch erkannt.</p>
-    <div style="background:var(--bg3);border:1px solid var(--b2);border-radius:9px;padding:12px;margin-bottom:12px;font-size:11px;color:var(--tx3);line-height:1.9;font-family:monospace">
-      <div style="color:var(--tx2);font-weight:600;margin-bottom:8px;font-family:inherit;font-size:10px;text-transform:uppercase;letter-spacing:.07em">Unterstütztes Format (.txt)</div>
-      <div style="color:var(--acc)">### TAG: MONTAG ###</div>
-      <div>TYP: Push_A</div>
-      <div style="margin-top:6px;color:var(--acc)">[ÜBUNG_1]</div>
-      <div>NAME: MTS Incline Press</div>
-      <div>SÄTZE: 5</div>
-      <div>REPS: 8-10</div>
-      <div>PAUSE: 3:00min</div>
-      <div>TEMPO: 2s/3s</div>
-      <div>RIR: 2→1→1→0</div>
-      <div style="color:var(--blue)">? Füße tief & eng, Ellbogen 45°…</div>
+    <p style="font-size:12px;color:var(--tx2);margin-bottom:14px;line-height:1.6">Lade eine Textdatei mit deinem Trainingsplan. Das Format kann von einer KI wie ChatGPT direkt generiert werden.</p>
+    <div style="background:var(--bg3);border:1px solid var(--b2);border-radius:9px;padding:12px;margin-bottom:12px;font-size:11px;color:var(--tx3);line-height:1.9;font-family:monospace;white-space:pre-wrap;overflow-x:auto;max-height:200px;overflow-y:auto;">
+      <div style="color:var(--tx2);font-weight:600;margin-bottom:8px;font-family:inherit;font-size:10px;text-transform:uppercase;letter-spacing:.07em">KI-Prompt Vorlage (Kopieren & Einfügen bei ChatGPT)</div>
+      <div style="color:var(--acc);user-select:all;cursor:text">Erstelle mir einen Trainingsplan in EXAKT folgendem Format (als reinen Text). Neue Trainingstage starten immer mit TAG: und TYP: (TYP ist der Name, der in der App angezeigt wird). Übungen starten mit [ÜBUNG_1], [ÜBUNG_2] usw.
+Ausführungstipps und Notizen MÜSSEN mit einem Fragezeichen (?) beginnen.
+
+TAG: PUSH
+TYP: Push_Day
+[ÜBUNG_1]
+NAME: MTS Incline Press
+SÄTZE: 4
+REPS: 8-10
+PAUSE: 3:00min
+TEMPO: 2s hoch / 3s runter
+RIR: 2→2→1→0
+WARMUP: WU1 12x50%, WU2 6x75%
+? Füße tief & eng auf Plattform. Schulterblätter hinten halten. 3s kontrolliert runter. Kein Hohlkreuz.
+
+[ÜBUNG_2]
+NAME: Decline Press
+...</div>
     </div>
     <div id="plan-drop-label" style="position:relative;display:block;background:var(--bg3);border:1px dashed var(--b2);border-radius:9px;padding:20px;text-align:center;cursor:pointer;margin-bottom:12px;font-size:13px;color:var(--tx2)">
       <span id="plan-drop-text">📂 Datei auswählen oder hierher ziehen</span>
@@ -1887,6 +1895,7 @@ function parsePlan(text) {
   const TYP_MAP = {
     'push_a':'Push A','pull_a':'Pull A','legs_a':'Legs A',
     'push_b':'Push B','pull_b':'Pull B','legs_b':'Legs B',
+    'push_day':'Push A','pull_day':'Pull A','leg_day':'Legs A',
     'rest':'Rest'
   };
 
@@ -1922,8 +1931,8 @@ function parsePlan(text) {
 
     if (!line) continue;
 
-    // ── TAG header: ### TAG: MONTAG ###
-    if (/^###\s*TAG:/i.test(line)) {
+    // ── TAG header
+    if (/^(?:###\s*)?TAG:/i.test(line)) {
       flushEx();
       currentWorkout = null;
       currentEx      = null;
@@ -1931,11 +1940,20 @@ function parsePlan(text) {
       continue;
     }
 
-    // ── TYP: Push_A
+    // ── TYP: Push_A oder TYP: Upper etc.
     const typM = line.match(/^TYP:\s*(.+)$/i);
     if (typM) {
-      const key = typM[1].trim().toLowerCase().replace(/\s+/g,'_');
-      currentWorkout = TYP_MAP[key] || null;
+      const rawKey = typM[1].trim();
+      const lowerKey = rawKey.toLowerCase().replace(/\s+/g,'_');
+      
+      // Falls es im TYP_MAP steht (z.B. push_day -> Push A)
+      if (TYP_MAP[lowerKey]) {
+        currentWorkout = TYP_MAP[lowerKey];
+      } else {
+        // Unbekannter Tag (z.B. "Upper") -> Erstelle ihn einfach als neuen Tag!
+        // Wir machen den ersten Buchstaben groß, Rest klein oder lassen es wie es ist.
+        currentWorkout = rawKey.replace(/_/g, ' '); 
+      }
       continue;
     }
 
