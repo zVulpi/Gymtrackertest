@@ -1,0 +1,2734 @@
+{
+  "users": [
+    {
+      "id": "jrrmh9a6b6mn2fo9ya",
+      "username": "admin",
+      "email": "test@tester.com",
+      "password": "123",
+      "role": "user",
+      "verified": true,
+      "verificationToken": null,
+      "sessionToken": "1ivqppux2gvmn2ga7fx"
+    },
+    {
+      "id": "ls4m4ezg1emn2fq7oo",
+      "username": "Vulpi",
+      "email": "vulpi321@gmail.com",
+      "password": "123",
+      "role": "admin",
+      "verified": true,
+      "verificationToken": null,
+      "sessionToken": "e3q2k2fr39lmn2h4u49"
+    },
+    {
+      "id": "6ckshbxnsekmn2gcio3",
+      "username": "admin2",
+      "email": "vulpi66321@gmail.com",
+      "password": "123",
+      "role": "watcher",
+      "verified": true,
+      "verificationToken": null,
+      "sessionToken": "cjz8kyqsdromn2h5hww"
+    }
+  ],
+  "data": {
+    "jrrmh9a6b6mn2fo9ya": {
+      "log": [],
+      "cycleStartIndex": 0,
+      "cycleStartDate": null,
+      "tips": {},
+      "lastSync": 1774224902982
+    },
+    "ls4m4ezg1emn2fq7oo": {
+      "log": [
+        {
+          "date": "2026-03-23",
+          "type": "training",
+          "workout": "Push A",
+          "exercises": [
+            {
+              "name": "MTS Incline Press",
+              "sets": [
+                {
+                  "kg": 2,
+                  "reps": 5,
+                  "rir": 2
+                },
+                {
+                  "kg": 2,
+                  "reps": 5,
+                  "rir": 2
+                },
+                {
+                  "kg": 2,
+                  "reps": 5,
+                  "rir": 1
+                },
+                {
+                  "kg": 2,
+                  "reps": 5,
+                  "rir": 1
+                },
+                {
+                  "kg": 2,
+                  "reps": 5,
+                  "rir": 0
+                }
+              ],
+              "note": ""
+            },
+            {
+              "name": "Decline Press",
+              "sets": [
+                {
+                  "kg": null,
+                  "reps": null,
+                  "rir": 2
+                },
+                {
+                  "kg": null,
+                  "reps": null,
+                  "rir": 1
+                },
+                {
+                  "kg": null,
+                  "reps": null,
+                  "rir": 0
+                }
+              ],
+              "note": ""
+            },
+            {
+              "name": "Machine Shoulder Press",
+              "sets": [
+                {
+                  "kg": null,
+                  "reps": null,
+                  "rir": 1
+                },
+                {
+                  "kg": null,
+                  "reps": null,
+                  "rir": 1
+                },
+                {
+                  "kg": null,
+                  "reps": null,
+                  "rir": 0
+                }
+              ],
+              "note": ""
+            },
+            {
+              "name": "Cable Lateral Raise",
+              "sets": [
+                {
+                  "kg": null,
+                  "reps": null,
+                  "rir": 1
+                },
+                {
+                  "kg": null,
+                  "reps": null,
+                  "rir": 0
+                },
+                {
+                  "kg": null,
+                  "reps": null,
+                  "rir": 0
+                }
+              ],
+              "note": ""
+            },
+            {
+              "name": "Tri Pushdown",
+              "sets": [
+                {
+                  "kg": null,
+                  "reps": null,
+                  "rir": 1
+                },
+                {
+                  "kg": null,
+                  "reps": null,
+                  "rir": 0
+                }
+              ],
+              "note": ""
+            }
+          ]
+        },
+        {
+          "date": "2026-03-24",
+          "type": "training",
+          "workout": "Pull A",
+          "exercises": [
+            {
+              "name": "Hammer High Row",
+              "sets": [
+                {
+                  "kg": 30,
+                  "reps": 12,
+                  "rir": 2
+                },
+                {
+                  "kg": 30,
+                  "reps": 12,
+                  "rir": 2
+                },
+                {
+                  "kg": 30,
+                  "reps": 12,
+                  "rir": 1
+                },
+                {
+                  "kg": 30,
+                  "reps": 12,
+                  "rir": 0
+                }
+              ],
+              "note": ""
+            },
+            {
+              "name": "Lat Pulldown Wide",
+              "sets": [
+                {
+                  "kg": 30,
+                  "reps": 12,
+                  "rir": 2
+                },
+                {
+                  "kg": 30,
+                  "reps": 12,
+                  "rir": 1
+                },
+                {
+                  "kg": 30,
+                  "reps": 12,
+                  "rir": 0
+                }
+              ],
+              "note": ""
+            },
+            {
+              "name": "Face Pulls",
+              "sets": [
+                {
+                  "kg": 25,
+                  "reps": 7,
+                  "rir": 1
+                },
+                {
+                  "kg": 25,
+                  "reps": 7,
+                  "rir": 0
+                },
+                {
+                  "kg": 25,
+                  "reps": 7,
+                  "rir": 0
+                }
+              ],
+              "note": ""
+            },
+            {
+              "name": "Hammer Curls",
+              "sets": [
+                {
+                  "kg": 27.5,
+                  "reps": 10,
+                  "rir": 1
+                },
+                {
+                  "kg": 27.5,
+                  "reps": 10,
+                  "rir": 1
+                },
+                {
+                  "kg": 27.5,
+                  "reps": 10,
+                  "rir": 0
+                }
+              ],
+              "note": ""
+            },
+            {
+              "name": "Cable Crunches",
+              "sets": [
+                {
+                  "kg": 12.5,
+                  "reps": 20,
+                  "rir": 0
+                },
+                {
+                  "kg": 12.5,
+                  "reps": 20,
+                  "rir": 0
+                },
+                {
+                  "kg": 12.5,
+                  "reps": 15,
+                  "rir": 0
+                }
+              ],
+              "note": ""
+            }
+          ]
+        },
+        {
+          "date": "2026-03-25",
+          "type": "training",
+          "workout": "Legs A",
+          "exercises": [
+            {
+              "name": "Leg Press",
+              "sets": [
+                {
+                  "kg": 100,
+                  "reps": 9,
+                  "rir": 2
+                },
+                {
+                  "kg": 100,
+                  "reps": 8,
+                  "rir": 2
+                },
+                {
+                  "kg": 100,
+                  "reps": 10,
+                  "rir": 1
+                },
+                {
+                  "kg": 100,
+                  "reps": 10,
+                  "rir": 0
+                }
+              ],
+              "note": ""
+            },
+            {
+              "name": "Romanian Deadlift",
+              "sets": [
+                {
+                  "kg": 40,
+                  "reps": 12,
+                  "rir": 2
+                },
+                {
+                  "kg": 40,
+                  "reps": 12,
+                  "rir": 1
+                },
+                {
+                  "kg": 40,
+                  "reps": 12,
+                  "rir": 0
+                }
+              ],
+              "note": ""
+            },
+            {
+              "name": "Leg Curls",
+              "sets": [
+                {
+                  "kg": 30,
+                  "reps": 8,
+                  "rir": 1
+                },
+                {
+                  "kg": 30,
+                  "reps": 8,
+                  "rir": 1
+                },
+                {
+                  "kg": 30,
+                  "reps": 8,
+                  "rir": 0
+                }
+              ],
+              "note": ""
+            },
+            {
+              "name": "Leg Extensions",
+              "sets": [
+                {
+                  "kg": 42,
+                  "reps": 12,
+                  "rir": 1
+                },
+                {
+                  "kg": 42,
+                  "reps": 12,
+                  "rir": 0
+                }
+              ],
+              "note": ""
+            },
+            {
+              "name": "Calves",
+              "sets": [
+                {
+                  "kg": 66,
+                  "reps": 12,
+                  "rir": 1
+                },
+                {
+                  "kg": 66,
+                  "reps": 12,
+                  "rir": 0
+                },
+                {
+                  "kg": 66,
+                  "reps": 12,
+                  "rir": 0
+                }
+              ],
+              "note": ""
+            }
+          ]
+        },
+        {
+          "date": "2026-03-31",
+          "type": "training",
+          "workout": "Push A",
+          "duration": 0,
+          "exercises": [
+            {
+              "name": "MTS Incline Press",
+              "sets": [
+                {
+                  "kg": 2,
+                  "reps": 5,
+                  "rir": 2
+                },
+                {
+                  "kg": 2,
+                  "reps": 5,
+                  "rir": 2
+                },
+                {
+                  "kg": 2,
+                  "reps": 5,
+                  "rir": 1
+                },
+                {
+                  "kg": 2,
+                  "reps": 5,
+                  "rir": 1
+                },
+                {
+                  "kg": 2,
+                  "reps": 5,
+                  "rir": 0
+                }
+              ],
+              "note": ""
+            },
+            {
+              "name": "Decline Press",
+              "sets": [
+                {
+                  "kg": null,
+                  "reps": null,
+                  "rir": 2
+                },
+                {
+                  "kg": null,
+                  "reps": null,
+                  "rir": 1
+                },
+                {
+                  "kg": null,
+                  "reps": null,
+                  "rir": 0
+                }
+              ],
+              "note": ""
+            },
+            {
+              "name": "Machine Shoulder Press",
+              "sets": [
+                {
+                  "kg": null,
+                  "reps": null,
+                  "rir": 1
+                },
+                {
+                  "kg": null,
+                  "reps": null,
+                  "rir": 1
+                },
+                {
+                  "kg": null,
+                  "reps": null,
+                  "rir": 0
+                }
+              ],
+              "note": ""
+            },
+            {
+              "name": "Cable Lateral Raise",
+              "sets": [
+                {
+                  "kg": null,
+                  "reps": null,
+                  "rir": 1
+                },
+                {
+                  "kg": null,
+                  "reps": null,
+                  "rir": 0
+                },
+                {
+                  "kg": null,
+                  "reps": null,
+                  "rir": 0
+                }
+              ],
+              "note": ""
+            },
+            {
+              "name": "Tri Pushdown",
+              "sets": [
+                {
+                  "kg": null,
+                  "reps": null,
+                  "rir": 1
+                },
+                {
+                  "kg": null,
+                  "reps": null,
+                  "rir": 0
+                }
+              ],
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "cycleStartIndex": 0,
+      "cycleStartDate": "2026-03-31",
+      "tips": {},
+      "lastSync": 1774230800768
+    },
+    "6ckshbxnsekmn2gcio3": {
+      "log": [
+        {
+          "date": "2025-03-31",
+          "type": "training",
+          "workout": "Push A",
+          "exercises": [
+            {
+              "name": "MTS Sparazy",
+              "sets": [
+                {
+                  "kg": 60,
+                  "reps": 10,
+                  "rir": 2
+                },
+                {
+                  "kg": 60,
+                  "reps": 10,
+                  "rir": 1
+                },
+                {
+                  "kg": 60,
+                  "reps": 9,
+                  "rir": 1
+                },
+                {
+                  "kg": 60,
+                  "reps": 9,
+                  "rir": 0
+                }
+              ]
+            },
+            {
+              "name": "Decline Press",
+              "sets": [
+                {
+                  "kg": 70,
+                  "reps": 10,
+                  "rir": 2
+                },
+                {
+                  "kg": 70,
+                  "reps": 10,
+                  "rir": 1
+                },
+                {
+                  "kg": 70,
+                  "reps": 9,
+                  "rir": 1
+                }
+              ]
+            },
+            {
+              "name": "Machine Shoulder Press",
+              "sets": [
+                {
+                  "kg": 40,
+                  "reps": 10,
+                  "rir": 2
+                },
+                {
+                  "kg": 40,
+                  "reps": 10,
+                  "rir": 1
+                },
+                {
+                  "kg": 40,
+                  "reps": 9,
+                  "rir": 1
+                }
+              ]
+            },
+            {
+              "name": "Cable Lateral Raise",
+              "sets": [
+                {
+                  "kg": 7.5,
+                  "reps": 15,
+                  "rir": 2
+                },
+                {
+                  "kg": 7.5,
+                  "reps": 15,
+                  "rir": 1
+                },
+                {
+                  "kg": 7.5,
+                  "reps": 14,
+                  "rir": 0
+                }
+              ]
+            },
+            {
+              "name": "Tri Pushdown (V-Grip)",
+              "sets": [
+                {
+                  "kg": 25,
+                  "reps": 12,
+                  "rir": 2
+                },
+                {
+                  "kg": 25,
+                  "reps": 12,
+                  "rir": 1
+                },
+                {
+                  "kg": 25,
+                  "reps": 11,
+                  "rir": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2025-04-01",
+          "type": "training",
+          "workout": "Pull A",
+          "exercises": [
+            {
+              "name": "Hammer Strength High Row",
+              "sets": [
+                {
+                  "kg": 50,
+                  "reps": 10,
+                  "rir": 2
+                },
+                {
+                  "kg": 50,
+                  "reps": 10,
+                  "rir": 2
+                },
+                {
+                  "kg": 50,
+                  "reps": 9,
+                  "rir": 1
+                },
+                {
+                  "kg": 50,
+                  "reps": 9,
+                  "rir": 0
+                }
+              ]
+            },
+            {
+              "name": "Lat Pulldown Wide",
+              "sets": [
+                {
+                  "kg": 55,
+                  "reps": 12,
+                  "rir": 2
+                },
+                {
+                  "kg": 55,
+                  "reps": 12,
+                  "rir": 1
+                },
+                {
+                  "kg": 55,
+                  "reps": 11,
+                  "rir": 1
+                }
+              ]
+            },
+            {
+              "name": "Face Pulls",
+              "sets": [
+                {
+                  "kg": 20,
+                  "reps": 20,
+                  "rir": 2
+                },
+                {
+                  "kg": 20,
+                  "reps": 20,
+                  "rir": 1
+                },
+                {
+                  "kg": 20,
+                  "reps": 19,
+                  "rir": 1
+                }
+              ]
+            },
+            {
+              "name": "Hammer Curls",
+              "sets": [
+                {
+                  "kg": 14,
+                  "reps": 12,
+                  "rir": 2
+                },
+                {
+                  "kg": 14,
+                  "reps": 12,
+                  "rir": 1
+                }
+              ]
+            },
+            {
+              "name": "Preacher Curls",
+              "sets": [
+                {
+                  "kg": 10,
+                  "reps": 12,
+                  "rir": 1
+                },
+                {
+                  "kg": 10,
+                  "reps": 12,
+                  "rir": 0
+                }
+              ]
+            },
+            {
+              "name": "Cable Crunches",
+              "sets": [
+                {
+                  "kg": 30,
+                  "reps": 20,
+                  "rir": 2
+                },
+                {
+                  "kg": 30,
+                  "reps": 20,
+                  "rir": 1
+                },
+                {
+                  "kg": 30,
+                  "reps": 19,
+                  "rir": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2025-04-02",
+          "type": "training",
+          "workout": "Legs A",
+          "exercises": [
+            {
+              "name": "Leg Press",
+              "sets": [
+                {
+                  "kg": 160,
+                  "reps": 10,
+                  "rir": 2
+                },
+                {
+                  "kg": 160,
+                  "reps": 10,
+                  "rir": 2
+                },
+                {
+                  "kg": 160,
+                  "reps": 9,
+                  "rir": 1
+                },
+                {
+                  "kg": 160,
+                  "reps": 9,
+                  "rir": 0
+                }
+              ]
+            },
+            {
+              "name": "Romanian Deadlift",
+              "sets": [
+                {
+                  "kg": 80,
+                  "reps": 10,
+                  "rir": 2
+                },
+                {
+                  "kg": 80,
+                  "reps": 10,
+                  "rir": 1
+                },
+                {
+                  "kg": 80,
+                  "reps": 9,
+                  "rir": 0
+                }
+              ]
+            },
+            {
+              "name": "Leg Curls",
+              "sets": [
+                {
+                  "kg": 45,
+                  "reps": 15,
+                  "rir": 2
+                },
+                {
+                  "kg": 45,
+                  "reps": 15,
+                  "rir": 1
+                },
+                {
+                  "kg": 45,
+                  "reps": 14,
+                  "rir": 1
+                }
+              ]
+            },
+            {
+              "name": "Leg Extensions",
+              "sets": [
+                {
+                  "kg": 50,
+                  "reps": 15,
+                  "rir": 2
+                },
+                {
+                  "kg": 50,
+                  "reps": 15,
+                  "rir": 1
+                }
+              ]
+            },
+            {
+              "name": "Calves",
+              "sets": [
+                {
+                  "kg": 60,
+                  "reps": 20,
+                  "rir": 2
+                },
+                {
+                  "kg": 60,
+                  "reps": 20,
+                  "rir": 1
+                },
+                {
+                  "kg": 60,
+                  "reps": 19,
+                  "rir": 0
+                },
+                {
+                  "kg": 60,
+                  "reps": 19,
+                  "rir": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2025-04-03",
+          "type": "training",
+          "workout": "Push B",
+          "exercises": [
+            {
+              "name": "Incline DB Press",
+              "sets": [
+                {
+                  "kg": 26,
+                  "reps": 10,
+                  "rir": 2
+                },
+                {
+                  "kg": 26,
+                  "reps": 10,
+                  "rir": 1
+                },
+                {
+                  "kg": 26,
+                  "reps": 9,
+                  "rir": 1
+                },
+                {
+                  "kg": 26,
+                  "reps": 9,
+                  "rir": 0
+                }
+              ]
+            },
+            {
+              "name": "Decline Press",
+              "sets": [
+                {
+                  "kg": 70,
+                  "reps": 10,
+                  "rir": 2
+                },
+                {
+                  "kg": 70,
+                  "reps": 10,
+                  "rir": 1
+                },
+                {
+                  "kg": 70,
+                  "reps": 9,
+                  "rir": 1
+                }
+              ]
+            },
+            {
+              "name": "Machine Shoulder Press",
+              "sets": [
+                {
+                  "kg": 40,
+                  "reps": 10,
+                  "rir": 2
+                },
+                {
+                  "kg": 40,
+                  "reps": 10,
+                  "rir": 1
+                },
+                {
+                  "kg": 40,
+                  "reps": 9,
+                  "rir": 1
+                }
+              ]
+            },
+            {
+              "name": "Cable Lateral Raise",
+              "sets": [
+                {
+                  "kg": 7.5,
+                  "reps": 15,
+                  "rir": 2
+                },
+                {
+                  "kg": 7.5,
+                  "reps": 15,
+                  "rir": 1
+                },
+                {
+                  "kg": 7.5,
+                  "reps": 14,
+                  "rir": 0
+                }
+              ]
+            },
+            {
+              "name": "Tri Pushdown (V-Grip)",
+              "sets": [
+                {
+                  "kg": 25,
+                  "reps": 12,
+                  "rir": 2
+                },
+                {
+                  "kg": 25,
+                  "reps": 12,
+                  "rir": 1
+                },
+                {
+                  "kg": 25,
+                  "reps": 11,
+                  "rir": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2025-04-04",
+          "type": "training",
+          "workout": "Pull B",
+          "exercises": [
+            {
+              "name": "Hammer Strength High Row",
+              "sets": [
+                {
+                  "kg": 50,
+                  "reps": 10,
+                  "rir": 2
+                },
+                {
+                  "kg": 50,
+                  "reps": 10,
+                  "rir": 2
+                },
+                {
+                  "kg": 50,
+                  "reps": 9,
+                  "rir": 1
+                },
+                {
+                  "kg": 50,
+                  "reps": 9,
+                  "rir": 0
+                }
+              ]
+            },
+            {
+              "name": "Lat Pulldown Wide",
+              "sets": [
+                {
+                  "kg": 55,
+                  "reps": 12,
+                  "rir": 2
+                },
+                {
+                  "kg": 55,
+                  "reps": 12,
+                  "rir": 1
+                },
+                {
+                  "kg": 55,
+                  "reps": 11,
+                  "rir": 1
+                }
+              ]
+            },
+            {
+              "name": "Face Pulls",
+              "sets": [
+                {
+                  "kg": 20,
+                  "reps": 20,
+                  "rir": 2
+                },
+                {
+                  "kg": 20,
+                  "reps": 20,
+                  "rir": 1
+                },
+                {
+                  "kg": 20,
+                  "reps": 19,
+                  "rir": 1
+                }
+              ]
+            },
+            {
+              "name": "Hammer Curls",
+              "sets": [
+                {
+                  "kg": 14,
+                  "reps": 12,
+                  "rir": 2
+                },
+                {
+                  "kg": 14,
+                  "reps": 12,
+                  "rir": 1
+                }
+              ]
+            },
+            {
+              "name": "Preacher Curls",
+              "sets": [
+                {
+                  "kg": 10,
+                  "reps": 12,
+                  "rir": 1
+                },
+                {
+                  "kg": 10,
+                  "reps": 12,
+                  "rir": 0
+                }
+              ]
+            },
+            {
+              "name": "Plank",
+              "sets": [
+                {
+                  "kg": 0,
+                  "reps": 60,
+                  "rir": 0
+                },
+                {
+                  "kg": 0,
+                  "reps": 60,
+                  "rir": 0
+                },
+                {
+                  "kg": 0,
+                  "reps": 59,
+                  "rir": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2025-04-05",
+          "type": "training",
+          "workout": "Legs B",
+          "exercises": [
+            {
+              "name": "Leg Press",
+              "sets": [
+                {
+                  "kg": 160,
+                  "reps": 10,
+                  "rir": 2
+                },
+                {
+                  "kg": 160,
+                  "reps": 10,
+                  "rir": 2
+                },
+                {
+                  "kg": 160,
+                  "reps": 9,
+                  "rir": 1
+                },
+                {
+                  "kg": 160,
+                  "reps": 9,
+                  "rir": 0
+                }
+              ]
+            },
+            {
+              "name": "Romanian Deadlift",
+              "sets": [
+                {
+                  "kg": 80,
+                  "reps": 10,
+                  "rir": 2
+                },
+                {
+                  "kg": 80,
+                  "reps": 10,
+                  "rir": 1
+                },
+                {
+                  "kg": 80,
+                  "reps": 9,
+                  "rir": 0
+                }
+              ]
+            },
+            {
+              "name": "Leg Curls",
+              "sets": [
+                {
+                  "kg": 45,
+                  "reps": 15,
+                  "rir": 2
+                },
+                {
+                  "kg": 45,
+                  "reps": 15,
+                  "rir": 1
+                },
+                {
+                  "kg": 45,
+                  "reps": 14,
+                  "rir": 1
+                }
+              ]
+            },
+            {
+              "name": "Leg Extensions",
+              "sets": [
+                {
+                  "kg": 50,
+                  "reps": 15,
+                  "rir": 2
+                },
+                {
+                  "kg": 50,
+                  "reps": 15,
+                  "rir": 1
+                }
+              ]
+            },
+            {
+              "name": "Calves",
+              "sets": [
+                {
+                  "kg": 60,
+                  "reps": 20,
+                  "rir": 2
+                },
+                {
+                  "kg": 60,
+                  "reps": 20,
+                  "rir": 1
+                },
+                {
+                  "kg": 60,
+                  "reps": 19,
+                  "rir": 0
+                },
+                {
+                  "kg": 60,
+                  "reps": 19,
+                  "rir": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2025-04-06",
+          "type": "rest",
+          "workout": "Rest Day",
+          "exercises": []
+        },
+        {
+          "date": "2025-04-07",
+          "type": "training",
+          "workout": "Push A",
+          "exercises": [
+            {
+              "name": "MTS Sparazy",
+              "sets": [
+                {
+                  "kg": 62.5,
+                  "reps": 10,
+                  "rir": 2
+                },
+                {
+                  "kg": 62.5,
+                  "reps": 10,
+                  "rir": 1
+                },
+                {
+                  "kg": 62.5,
+                  "reps": 9,
+                  "rir": 1
+                },
+                {
+                  "kg": 62.5,
+                  "reps": 9,
+                  "rir": 0
+                }
+              ]
+            },
+            {
+              "name": "Decline Press",
+              "sets": [
+                {
+                  "kg": 72.5,
+                  "reps": 10,
+                  "rir": 2
+                },
+                {
+                  "kg": 72.5,
+                  "reps": 10,
+                  "rir": 1
+                },
+                {
+                  "kg": 72.5,
+                  "reps": 9,
+                  "rir": 1
+                }
+              ]
+            },
+            {
+              "name": "Machine Shoulder Press",
+              "sets": [
+                {
+                  "kg": 42.5,
+                  "reps": 10,
+                  "rir": 2
+                },
+                {
+                  "kg": 42.5,
+                  "reps": 10,
+                  "rir": 1
+                },
+                {
+                  "kg": 42.5,
+                  "reps": 9,
+                  "rir": 1
+                }
+              ]
+            },
+            {
+              "name": "Cable Lateral Raise",
+              "sets": [
+                {
+                  "kg": 10,
+                  "reps": 15,
+                  "rir": 2
+                },
+                {
+                  "kg": 10,
+                  "reps": 15,
+                  "rir": 1
+                },
+                {
+                  "kg": 10,
+                  "reps": 14,
+                  "rir": 0
+                }
+              ]
+            },
+            {
+              "name": "Tri Pushdown (V-Grip)",
+              "sets": [
+                {
+                  "kg": 27.5,
+                  "reps": 12,
+                  "rir": 2
+                },
+                {
+                  "kg": 27.5,
+                  "reps": 12,
+                  "rir": 1
+                },
+                {
+                  "kg": 27.5,
+                  "reps": 11,
+                  "rir": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2025-04-08",
+          "type": "training",
+          "workout": "Pull A",
+          "exercises": [
+            {
+              "name": "Hammer Strength High Row",
+              "sets": [
+                {
+                  "kg": 52.5,
+                  "reps": 10,
+                  "rir": 2
+                },
+                {
+                  "kg": 52.5,
+                  "reps": 10,
+                  "rir": 2
+                },
+                {
+                  "kg": 52.5,
+                  "reps": 9,
+                  "rir": 1
+                },
+                {
+                  "kg": 52.5,
+                  "reps": 9,
+                  "rir": 0
+                }
+              ]
+            },
+            {
+              "name": "Lat Pulldown Wide",
+              "sets": [
+                {
+                  "kg": 57.5,
+                  "reps": 12,
+                  "rir": 2
+                },
+                {
+                  "kg": 57.5,
+                  "reps": 12,
+                  "rir": 1
+                },
+                {
+                  "kg": 57.5,
+                  "reps": 11,
+                  "rir": 1
+                }
+              ]
+            },
+            {
+              "name": "Face Pulls",
+              "sets": [
+                {
+                  "kg": 22.5,
+                  "reps": 20,
+                  "rir": 2
+                },
+                {
+                  "kg": 22.5,
+                  "reps": 20,
+                  "rir": 1
+                },
+                {
+                  "kg": 22.5,
+                  "reps": 19,
+                  "rir": 1
+                }
+              ]
+            },
+            {
+              "name": "Hammer Curls",
+              "sets": [
+                {
+                  "kg": 16.5,
+                  "reps": 12,
+                  "rir": 2
+                },
+                {
+                  "kg": 16.5,
+                  "reps": 12,
+                  "rir": 1
+                }
+              ]
+            },
+            {
+              "name": "Preacher Curls",
+              "sets": [
+                {
+                  "kg": 12.5,
+                  "reps": 12,
+                  "rir": 1
+                },
+                {
+                  "kg": 12.5,
+                  "reps": 12,
+                  "rir": 0
+                }
+              ]
+            },
+            {
+              "name": "Cable Crunches",
+              "sets": [
+                {
+                  "kg": 32.5,
+                  "reps": 20,
+                  "rir": 2
+                },
+                {
+                  "kg": 32.5,
+                  "reps": 20,
+                  "rir": 1
+                },
+                {
+                  "kg": 32.5,
+                  "reps": 19,
+                  "rir": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2025-04-09",
+          "type": "training",
+          "workout": "Legs A",
+          "exercises": [
+            {
+              "name": "Leg Press",
+              "sets": [
+                {
+                  "kg": 162.5,
+                  "reps": 10,
+                  "rir": 2
+                },
+                {
+                  "kg": 162.5,
+                  "reps": 10,
+                  "rir": 2
+                },
+                {
+                  "kg": 162.5,
+                  "reps": 9,
+                  "rir": 1
+                },
+                {
+                  "kg": 162.5,
+                  "reps": 9,
+                  "rir": 0
+                }
+              ]
+            },
+            {
+              "name": "Romanian Deadlift",
+              "sets": [
+                {
+                  "kg": 82.5,
+                  "reps": 10,
+                  "rir": 2
+                },
+                {
+                  "kg": 82.5,
+                  "reps": 10,
+                  "rir": 1
+                },
+                {
+                  "kg": 82.5,
+                  "reps": 9,
+                  "rir": 0
+                }
+              ]
+            },
+            {
+              "name": "Leg Curls",
+              "sets": [
+                {
+                  "kg": 47.5,
+                  "reps": 15,
+                  "rir": 2
+                },
+                {
+                  "kg": 47.5,
+                  "reps": 15,
+                  "rir": 1
+                },
+                {
+                  "kg": 47.5,
+                  "reps": 14,
+                  "rir": 1
+                }
+              ]
+            },
+            {
+              "name": "Leg Extensions",
+              "sets": [
+                {
+                  "kg": 52.5,
+                  "reps": 15,
+                  "rir": 2
+                },
+                {
+                  "kg": 52.5,
+                  "reps": 15,
+                  "rir": 1
+                }
+              ]
+            },
+            {
+              "name": "Calves",
+              "sets": [
+                {
+                  "kg": 62.5,
+                  "reps": 20,
+                  "rir": 2
+                },
+                {
+                  "kg": 62.5,
+                  "reps": 20,
+                  "rir": 1
+                },
+                {
+                  "kg": 62.5,
+                  "reps": 19,
+                  "rir": 0
+                },
+                {
+                  "kg": 62.5,
+                  "reps": 19,
+                  "rir": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2025-04-10",
+          "type": "training",
+          "workout": "Push B",
+          "exercises": [
+            {
+              "name": "Incline DB Press",
+              "sets": [
+                {
+                  "kg": 28.5,
+                  "reps": 10,
+                  "rir": 2
+                },
+                {
+                  "kg": 28.5,
+                  "reps": 10,
+                  "rir": 1
+                },
+                {
+                  "kg": 28.5,
+                  "reps": 9,
+                  "rir": 1
+                },
+                {
+                  "kg": 28.5,
+                  "reps": 9,
+                  "rir": 0
+                }
+              ]
+            },
+            {
+              "name": "Decline Press",
+              "sets": [
+                {
+                  "kg": 72.5,
+                  "reps": 10,
+                  "rir": 2
+                },
+                {
+                  "kg": 72.5,
+                  "reps": 10,
+                  "rir": 1
+                },
+                {
+                  "kg": 72.5,
+                  "reps": 9,
+                  "rir": 1
+                }
+              ]
+            },
+            {
+              "name": "Machine Shoulder Press",
+              "sets": [
+                {
+                  "kg": 42.5,
+                  "reps": 10,
+                  "rir": 2
+                },
+                {
+                  "kg": 42.5,
+                  "reps": 10,
+                  "rir": 1
+                },
+                {
+                  "kg": 42.5,
+                  "reps": 9,
+                  "rir": 1
+                }
+              ]
+            },
+            {
+              "name": "Cable Lateral Raise",
+              "sets": [
+                {
+                  "kg": 10,
+                  "reps": 15,
+                  "rir": 2
+                },
+                {
+                  "kg": 10,
+                  "reps": 15,
+                  "rir": 1
+                },
+                {
+                  "kg": 10,
+                  "reps": 14,
+                  "rir": 0
+                }
+              ]
+            },
+            {
+              "name": "Tri Pushdown (V-Grip)",
+              "sets": [
+                {
+                  "kg": 27.5,
+                  "reps": 12,
+                  "rir": 2
+                },
+                {
+                  "kg": 27.5,
+                  "reps": 12,
+                  "rir": 1
+                },
+                {
+                  "kg": 27.5,
+                  "reps": 11,
+                  "rir": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2025-04-11",
+          "type": "training",
+          "workout": "Pull B",
+          "exercises": [
+            {
+              "name": "Hammer Strength High Row",
+              "sets": [
+                {
+                  "kg": 52.5,
+                  "reps": 10,
+                  "rir": 2
+                },
+                {
+                  "kg": 52.5,
+                  "reps": 10,
+                  "rir": 2
+                },
+                {
+                  "kg": 52.5,
+                  "reps": 9,
+                  "rir": 1
+                },
+                {
+                  "kg": 52.5,
+                  "reps": 9,
+                  "rir": 0
+                }
+              ]
+            },
+            {
+              "name": "Lat Pulldown Wide",
+              "sets": [
+                {
+                  "kg": 57.5,
+                  "reps": 12,
+                  "rir": 2
+                },
+                {
+                  "kg": 57.5,
+                  "reps": 12,
+                  "rir": 1
+                },
+                {
+                  "kg": 57.5,
+                  "reps": 11,
+                  "rir": 1
+                }
+              ]
+            },
+            {
+              "name": "Face Pulls",
+              "sets": [
+                {
+                  "kg": 22.5,
+                  "reps": 20,
+                  "rir": 2
+                },
+                {
+                  "kg": 22.5,
+                  "reps": 20,
+                  "rir": 1
+                },
+                {
+                  "kg": 22.5,
+                  "reps": 19,
+                  "rir": 1
+                }
+              ]
+            },
+            {
+              "name": "Hammer Curls",
+              "sets": [
+                {
+                  "kg": 16.5,
+                  "reps": 12,
+                  "rir": 2
+                },
+                {
+                  "kg": 16.5,
+                  "reps": 12,
+                  "rir": 1
+                }
+              ]
+            },
+            {
+              "name": "Preacher Curls",
+              "sets": [
+                {
+                  "kg": 12.5,
+                  "reps": 12,
+                  "rir": 1
+                },
+                {
+                  "kg": 12.5,
+                  "reps": 12,
+                  "rir": 0
+                }
+              ]
+            },
+            {
+              "name": "Plank",
+              "sets": [
+                {
+                  "kg": 2.5,
+                  "reps": 60,
+                  "rir": 0
+                },
+                {
+                  "kg": 2.5,
+                  "reps": 60,
+                  "rir": 0
+                },
+                {
+                  "kg": 2.5,
+                  "reps": 59,
+                  "rir": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2025-04-12",
+          "type": "training",
+          "workout": "Legs B",
+          "exercises": [
+            {
+              "name": "Leg Press",
+              "sets": [
+                {
+                  "kg": 162.5,
+                  "reps": 10,
+                  "rir": 2
+                },
+                {
+                  "kg": 162.5,
+                  "reps": 10,
+                  "rir": 2
+                },
+                {
+                  "kg": 162.5,
+                  "reps": 9,
+                  "rir": 1
+                },
+                {
+                  "kg": 162.5,
+                  "reps": 9,
+                  "rir": 0
+                }
+              ]
+            },
+            {
+              "name": "Romanian Deadlift",
+              "sets": [
+                {
+                  "kg": 82.5,
+                  "reps": 10,
+                  "rir": 2
+                },
+                {
+                  "kg": 82.5,
+                  "reps": 10,
+                  "rir": 1
+                },
+                {
+                  "kg": 82.5,
+                  "reps": 9,
+                  "rir": 0
+                }
+              ]
+            },
+            {
+              "name": "Leg Curls",
+              "sets": [
+                {
+                  "kg": 47.5,
+                  "reps": 15,
+                  "rir": 2
+                },
+                {
+                  "kg": 47.5,
+                  "reps": 15,
+                  "rir": 1
+                },
+                {
+                  "kg": 47.5,
+                  "reps": 14,
+                  "rir": 1
+                }
+              ]
+            },
+            {
+              "name": "Leg Extensions",
+              "sets": [
+                {
+                  "kg": 52.5,
+                  "reps": 15,
+                  "rir": 2
+                },
+                {
+                  "kg": 52.5,
+                  "reps": 15,
+                  "rir": 1
+                }
+              ]
+            },
+            {
+              "name": "Calves",
+              "sets": [
+                {
+                  "kg": 62.5,
+                  "reps": 20,
+                  "rir": 2
+                },
+                {
+                  "kg": 62.5,
+                  "reps": 20,
+                  "rir": 1
+                },
+                {
+                  "kg": 62.5,
+                  "reps": 19,
+                  "rir": 0
+                },
+                {
+                  "kg": 62.5,
+                  "reps": 19,
+                  "rir": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2025-04-13",
+          "type": "rest",
+          "workout": "Rest Day",
+          "exercises": []
+        },
+        {
+          "date": "2025-04-14",
+          "type": "training",
+          "workout": "Push A",
+          "exercises": [
+            {
+              "name": "MTS Sparazy",
+              "sets": [
+                {
+                  "kg": 65,
+                  "reps": 10,
+                  "rir": 2
+                },
+                {
+                  "kg": 65,
+                  "reps": 10,
+                  "rir": 1
+                },
+                {
+                  "kg": 65,
+                  "reps": 9,
+                  "rir": 1
+                },
+                {
+                  "kg": 65,
+                  "reps": 9,
+                  "rir": 0
+                }
+              ]
+            },
+            {
+              "name": "Decline Press",
+              "sets": [
+                {
+                  "kg": 75,
+                  "reps": 10,
+                  "rir": 2
+                },
+                {
+                  "kg": 75,
+                  "reps": 10,
+                  "rir": 1
+                },
+                {
+                  "kg": 75,
+                  "reps": 9,
+                  "rir": 1
+                }
+              ]
+            },
+            {
+              "name": "Machine Shoulder Press",
+              "sets": [
+                {
+                  "kg": 45,
+                  "reps": 10,
+                  "rir": 2
+                },
+                {
+                  "kg": 45,
+                  "reps": 10,
+                  "rir": 1
+                },
+                {
+                  "kg": 45,
+                  "reps": 9,
+                  "rir": 1
+                }
+              ]
+            },
+            {
+              "name": "Cable Lateral Raise",
+              "sets": [
+                {
+                  "kg": 12.5,
+                  "reps": 15,
+                  "rir": 2
+                },
+                {
+                  "kg": 12.5,
+                  "reps": 15,
+                  "rir": 1
+                },
+                {
+                  "kg": 12.5,
+                  "reps": 14,
+                  "rir": 0
+                }
+              ]
+            },
+            {
+              "name": "Tri Pushdown (V-Grip)",
+              "sets": [
+                {
+                  "kg": 30,
+                  "reps": 12,
+                  "rir": 2
+                },
+                {
+                  "kg": 30,
+                  "reps": 12,
+                  "rir": 1
+                },
+                {
+                  "kg": 30,
+                  "reps": 11,
+                  "rir": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2025-04-15",
+          "type": "training",
+          "workout": "Pull A",
+          "exercises": [
+            {
+              "name": "Hammer Strength High Row",
+              "sets": [
+                {
+                  "kg": 55,
+                  "reps": 10,
+                  "rir": 2
+                },
+                {
+                  "kg": 55,
+                  "reps": 10,
+                  "rir": 2
+                },
+                {
+                  "kg": 55,
+                  "reps": 9,
+                  "rir": 1
+                },
+                {
+                  "kg": 55,
+                  "reps": 9,
+                  "rir": 0
+                }
+              ]
+            },
+            {
+              "name": "Lat Pulldown Wide",
+              "sets": [
+                {
+                  "kg": 60,
+                  "reps": 12,
+                  "rir": 2
+                },
+                {
+                  "kg": 60,
+                  "reps": 12,
+                  "rir": 1
+                },
+                {
+                  "kg": 60,
+                  "reps": 11,
+                  "rir": 1
+                }
+              ]
+            },
+            {
+              "name": "Face Pulls",
+              "sets": [
+                {
+                  "kg": 25,
+                  "reps": 20,
+                  "rir": 2
+                },
+                {
+                  "kg": 25,
+                  "reps": 20,
+                  "rir": 1
+                },
+                {
+                  "kg": 25,
+                  "reps": 19,
+                  "rir": 1
+                }
+              ]
+            },
+            {
+              "name": "Hammer Curls",
+              "sets": [
+                {
+                  "kg": 19,
+                  "reps": 12,
+                  "rir": 2
+                },
+                {
+                  "kg": 19,
+                  "reps": 12,
+                  "rir": 1
+                }
+              ]
+            },
+            {
+              "name": "Preacher Curls",
+              "sets": [
+                {
+                  "kg": 15,
+                  "reps": 12,
+                  "rir": 1
+                },
+                {
+                  "kg": 15,
+                  "reps": 12,
+                  "rir": 0
+                }
+              ]
+            },
+            {
+              "name": "Cable Crunches",
+              "sets": [
+                {
+                  "kg": 35,
+                  "reps": 20,
+                  "rir": 2
+                },
+                {
+                  "kg": 35,
+                  "reps": 20,
+                  "rir": 1
+                },
+                {
+                  "kg": 35,
+                  "reps": 19,
+                  "rir": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2025-04-16",
+          "type": "training",
+          "workout": "Legs A",
+          "exercises": [
+            {
+              "name": "Leg Press",
+              "sets": [
+                {
+                  "kg": 165,
+                  "reps": 10,
+                  "rir": 2
+                },
+                {
+                  "kg": 165,
+                  "reps": 10,
+                  "rir": 2
+                },
+                {
+                  "kg": 165,
+                  "reps": 9,
+                  "rir": 1
+                },
+                {
+                  "kg": 165,
+                  "reps": 9,
+                  "rir": 0
+                }
+              ]
+            },
+            {
+              "name": "Romanian Deadlift",
+              "sets": [
+                {
+                  "kg": 85,
+                  "reps": 10,
+                  "rir": 2
+                },
+                {
+                  "kg": 85,
+                  "reps": 10,
+                  "rir": 1
+                },
+                {
+                  "kg": 85,
+                  "reps": 9,
+                  "rir": 0
+                }
+              ]
+            },
+            {
+              "name": "Leg Curls",
+              "sets": [
+                {
+                  "kg": 50,
+                  "reps": 15,
+                  "rir": 2
+                },
+                {
+                  "kg": 50,
+                  "reps": 15,
+                  "rir": 1
+                },
+                {
+                  "kg": 50,
+                  "reps": 14,
+                  "rir": 1
+                }
+              ]
+            },
+            {
+              "name": "Leg Extensions",
+              "sets": [
+                {
+                  "kg": 55,
+                  "reps": 15,
+                  "rir": 2
+                },
+                {
+                  "kg": 55,
+                  "reps": 15,
+                  "rir": 1
+                }
+              ]
+            },
+            {
+              "name": "Calves",
+              "sets": [
+                {
+                  "kg": 65,
+                  "reps": 20,
+                  "rir": 2
+                },
+                {
+                  "kg": 65,
+                  "reps": 20,
+                  "rir": 1
+                },
+                {
+                  "kg": 65,
+                  "reps": 19,
+                  "rir": 0
+                },
+                {
+                  "kg": 65,
+                  "reps": 19,
+                  "rir": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2025-04-17",
+          "type": "training",
+          "workout": "Push B",
+          "exercises": [
+            {
+              "name": "Incline DB Press",
+              "sets": [
+                {
+                  "kg": 31,
+                  "reps": 10,
+                  "rir": 2
+                },
+                {
+                  "kg": 31,
+                  "reps": 10,
+                  "rir": 1
+                },
+                {
+                  "kg": 31,
+                  "reps": 9,
+                  "rir": 1
+                },
+                {
+                  "kg": 31,
+                  "reps": 9,
+                  "rir": 0
+                }
+              ]
+            },
+            {
+              "name": "Decline Press",
+              "sets": [
+                {
+                  "kg": 75,
+                  "reps": 10,
+                  "rir": 2
+                },
+                {
+                  "kg": 75,
+                  "reps": 10,
+                  "rir": 1
+                },
+                {
+                  "kg": 75,
+                  "reps": 9,
+                  "rir": 1
+                }
+              ]
+            },
+            {
+              "name": "Machine Shoulder Press",
+              "sets": [
+                {
+                  "kg": 45,
+                  "reps": 10,
+                  "rir": 2
+                },
+                {
+                  "kg": 45,
+                  "reps": 10,
+                  "rir": 1
+                },
+                {
+                  "kg": 45,
+                  "reps": 9,
+                  "rir": 1
+                }
+              ]
+            },
+            {
+              "name": "Cable Lateral Raise",
+              "sets": [
+                {
+                  "kg": 12.5,
+                  "reps": 15,
+                  "rir": 2
+                },
+                {
+                  "kg": 12.5,
+                  "reps": 15,
+                  "rir": 1
+                },
+                {
+                  "kg": 12.5,
+                  "reps": 14,
+                  "rir": 0
+                }
+              ]
+            },
+            {
+              "name": "Tri Pushdown (V-Grip)",
+              "sets": [
+                {
+                  "kg": 30,
+                  "reps": 12,
+                  "rir": 2
+                },
+                {
+                  "kg": 30,
+                  "reps": 12,
+                  "rir": 1
+                },
+                {
+                  "kg": 30,
+                  "reps": 11,
+                  "rir": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2025-04-18",
+          "type": "training",
+          "workout": "Pull B",
+          "exercises": [
+            {
+              "name": "Hammer Strength High Row",
+              "sets": [
+                {
+                  "kg": 55,
+                  "reps": 10,
+                  "rir": 2
+                },
+                {
+                  "kg": 55,
+                  "reps": 10,
+                  "rir": 2
+                },
+                {
+                  "kg": 55,
+                  "reps": 9,
+                  "rir": 1
+                },
+                {
+                  "kg": 55,
+                  "reps": 9,
+                  "rir": 0
+                }
+              ]
+            },
+            {
+              "name": "Lat Pulldown Wide",
+              "sets": [
+                {
+                  "kg": 60,
+                  "reps": 12,
+                  "rir": 2
+                },
+                {
+                  "kg": 60,
+                  "reps": 12,
+                  "rir": 1
+                },
+                {
+                  "kg": 60,
+                  "reps": 11,
+                  "rir": 1
+                }
+              ]
+            },
+            {
+              "name": "Face Pulls",
+              "sets": [
+                {
+                  "kg": 25,
+                  "reps": 20,
+                  "rir": 2
+                },
+                {
+                  "kg": 25,
+                  "reps": 20,
+                  "rir": 1
+                },
+                {
+                  "kg": 25,
+                  "reps": 19,
+                  "rir": 1
+                }
+              ]
+            },
+            {
+              "name": "Hammer Curls",
+              "sets": [
+                {
+                  "kg": 19,
+                  "reps": 12,
+                  "rir": 2
+                },
+                {
+                  "kg": 19,
+                  "reps": 12,
+                  "rir": 1
+                }
+              ]
+            },
+            {
+              "name": "Preacher Curls",
+              "sets": [
+                {
+                  "kg": 15,
+                  "reps": 12,
+                  "rir": 1
+                },
+                {
+                  "kg": 15,
+                  "reps": 12,
+                  "rir": 0
+                }
+              ]
+            },
+            {
+              "name": "Plank",
+              "sets": [
+                {
+                  "kg": 5,
+                  "reps": 60,
+                  "rir": 0
+                },
+                {
+                  "kg": 5,
+                  "reps": 60,
+                  "rir": 0
+                },
+                {
+                  "kg": 5,
+                  "reps": 59,
+                  "rir": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2025-04-19",
+          "type": "training",
+          "workout": "Legs B",
+          "exercises": [
+            {
+              "name": "Leg Press",
+              "sets": [
+                {
+                  "kg": 165,
+                  "reps": 10,
+                  "rir": 2
+                },
+                {
+                  "kg": 165,
+                  "reps": 10,
+                  "rir": 2
+                },
+                {
+                  "kg": 165,
+                  "reps": 9,
+                  "rir": 1
+                },
+                {
+                  "kg": 165,
+                  "reps": 9,
+                  "rir": 0
+                }
+              ]
+            },
+            {
+              "name": "Romanian Deadlift",
+              "sets": [
+                {
+                  "kg": 85,
+                  "reps": 10,
+                  "rir": 2
+                },
+                {
+                  "kg": 85,
+                  "reps": 10,
+                  "rir": 1
+                },
+                {
+                  "kg": 85,
+                  "reps": 9,
+                  "rir": 0
+                }
+              ]
+            },
+            {
+              "name": "Leg Curls",
+              "sets": [
+                {
+                  "kg": 50,
+                  "reps": 15,
+                  "rir": 2
+                },
+                {
+                  "kg": 50,
+                  "reps": 15,
+                  "rir": 1
+                },
+                {
+                  "kg": 50,
+                  "reps": 14,
+                  "rir": 1
+                }
+              ]
+            },
+            {
+              "name": "Leg Extensions",
+              "sets": [
+                {
+                  "kg": 55,
+                  "reps": 15,
+                  "rir": 2
+                },
+                {
+                  "kg": 55,
+                  "reps": 15,
+                  "rir": 1
+                }
+              ]
+            },
+            {
+              "name": "Calves",
+              "sets": [
+                {
+                  "kg": 65,
+                  "reps": 20,
+                  "rir": 2
+                },
+                {
+                  "kg": 65,
+                  "reps": 20,
+                  "rir": 1
+                },
+                {
+                  "kg": 65,
+                  "reps": 19,
+                  "rir": 0
+                },
+                {
+                  "kg": 65,
+                  "reps": 19,
+                  "rir": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": "2025-04-20",
+          "type": "rest",
+          "workout": "Rest Day",
+          "exercises": []
+        },
+        {
+          "date": "2026-03-25",
+          "type": "training",
+          "workout": "Push A",
+          "exercises": [
+            {
+              "name": "MTS Incline Press",
+              "sets": [
+                {
+                  "kg": 21,
+                  "reps": null,
+                  "rir": 2
+                },
+                {
+                  "kg": 12,
+                  "reps": null,
+                  "rir": 2
+                },
+                {
+                  "kg": 1221,
+                  "reps": null,
+                  "rir": 1
+                },
+                {
+                  "kg": 12,
+                  "reps": null,
+                  "rir": 1
+                },
+                {
+                  "kg": 1221,
+                  "reps": null,
+                  "rir": 0
+                }
+              ],
+              "note": ""
+            },
+            {
+              "name": "Decline Press",
+              "sets": [
+                {
+                  "kg": 75,
+                  "reps": 10,
+                  "rir": 2
+                },
+                {
+                  "kg": 75,
+                  "reps": 10,
+                  "rir": 1
+                },
+                {
+                  "kg": 75,
+                  "reps": 9,
+                  "rir": 1
+                }
+              ],
+              "note": ""
+            },
+            {
+              "name": "Machine Shoulder Press",
+              "sets": [
+                {
+                  "kg": 45,
+                  "reps": 10,
+                  "rir": 2
+                },
+                {
+                  "kg": 45,
+                  "reps": 10,
+                  "rir": 1
+                },
+                {
+                  "kg": 45,
+                  "reps": 9,
+                  "rir": 1
+                }
+              ],
+              "note": ""
+            },
+            {
+              "name": "Cable Lateral Raise",
+              "sets": [
+                {
+                  "kg": 12.5,
+                  "reps": 15,
+                  "rir": 2
+                },
+                {
+                  "kg": 12.5,
+                  "reps": 15,
+                  "rir": 1
+                },
+                {
+                  "kg": 12.5,
+                  "reps": 14,
+                  "rir": 0
+                }
+              ],
+              "note": ""
+            },
+            {
+              "name": "Tri Pushdown",
+              "sets": [
+                {
+                  "kg": null,
+                  "reps": null,
+                  "rir": 1
+                },
+                {
+                  "kg": null,
+                  "reps": null,
+                  "rir": 0
+                }
+              ],
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "cycleStartIndex": 0,
+      "cycleStartDate": "2026-03-31",
+      "tips": {},
+      "lastSync": 1774227218236
+    }
+  }
+}
