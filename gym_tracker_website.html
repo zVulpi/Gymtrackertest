@@ -1136,7 +1136,13 @@ function renderDashboard() {
 // ════════════════════════════════════════════
 // PERSISTENCE
 // ════════════════════════════════════════════
-function save(){localStorage.setItem('gtrk4',JSON.stringify({startDate:S.startDate,log:S.log,debugMode:S.debugMode,debugDate:S.debugDate,tips:S.tips,cycleStartIndex:S.cycleStartIndex,cycleStartDate:S.cycleStartDate}));}
+function save(){
+  localStorage.setItem('gtrk4',JSON.stringify({startDate:S.startDate,log:S.log,debugMode:S.debugMode,debugDate:S.debugDate,tips:S.tips,cycleStartIndex:S.cycleStartIndex,cycleStartDate:S.cycleStartDate}));
+  // Automatisch mit der Cloud synchronisieren, wenn eingeloggt
+  if(window.authToken) {
+    syncToServer();
+  }
+}
 function load(){try{const d=JSON.parse(localStorage.getItem('gtrk4')||'null');if(d){
     S.startDate=d.startDate||'2025-03-31';
     S.log=d.log||[];
@@ -2826,7 +2832,8 @@ document.addEventListener('DOMContentLoaded',()=>{
   document.getElementById('btn-del-ok').addEventListener('click',()=>{
     if(!detailDate)return;
     S.log=S.log.filter(e=>e.date!==detailDate);
-    save();cm('m-del');show('timeline');renderHome();toast('Eintrag gelöscht');
+    save(); // Dies ruft jetzt automatisch syncToServer() auf
+    cm('m-del');show('timeline');renderHome();toast('Eintrag gelöscht');
   });
   document.getElementById('btn-td-edit').addEventListener('click',()=>{if(detailDate)openEdit(detailDate);});
 
